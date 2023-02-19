@@ -51,8 +51,8 @@ export default function Home() {
                 </div>
                 <div className="lg:col-span-2">
                   <h4 className="text-lg font-semibold mb-5">Senior Developer</h4>
-                  <p className="mb-5">The team spent a lot of time in developing new features, enhancing UI/UX, and solving computational errors that boost customers' retention rate.</p>
-                  <p>Moreover, we architectured our mobile and web applications using the ideas of Uncle Bob's The Clean Architecture, which made maintaining the applications better and making it easy to scale in terms of codebase.</p>
+                  <p className="mb-5">The team spent a lot of time in developing new features, enhancing UI/UX, and solving computational errors that boost customers&apos; retention rate.</p>
+                  <p>Moreover, we architectured our mobile and web applications using the ideas of Uncle Bob&apos;s The Clean Architecture, which made maintaining the applications better and making it easy to scale in terms of codebase.</p>
                 </div>
               </div>
               <div className="grid grid-cols-3 gap-x-6 mt-12">
@@ -72,7 +72,7 @@ export default function Home() {
                 </div>
                 <div className="lg:col-span-2">
                   <h4 className="text-lg font-semibold mb-5">Junior Developer</h4>
-                  <p className="mb-5">The company explored ERPNext's potentials to the software industry market. We worked on coding script reports, customizing invoices' forms in order to provide better contexts on clients' sales and revenues.</p>
+                  <p className="mb-5">The company explored ERPNext&apos;s potentials to the software industry market. We worked on coding script reports, customizing invoices&apos; forms in order to provide better contexts on clients&apos; sales and revenues.</p>
                   <p>The company has also worked in implementing a startup project to the local market.</p>
                 </div>
               </div>
