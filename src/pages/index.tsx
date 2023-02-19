@@ -46,45 +46,78 @@ export default function Home() {
               <h3 className="text-3xl font-bold border-b-2 border-gray-300 pb-4 mb-7">Work Experience</h3>
               <div className="grid grid-cols-3 gap-x-6">
                 <div>
-                  <h4>Secret</h4>
-                  <div>Sept. 2021 - Present</div>
+                  <h4 className="text-lg font-semibold mb-5">KaHero Apps, Inc.</h4>
+                  <div>Aug. 2021 - Present</div>
                 </div>
                 <div className="lg:col-span-2">
-                  <h4>Job Title</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex suscipit, magni rerum repellendus quaerat debitis explicabo unde officia laudantium, id numquam at provident vel soluta ullam harum ad fugiat doloribus!</p>
+                  <h4 className="text-lg font-semibold mb-5">Senior Developer</h4>
+                  <p className="mb-5">The team spent a lot of time in developing new features, enhancing UI/UX, and solving computational errors that boost customers' retention rate.</p>
+                  <p>Moreover, we architectured our mobile and web applications using the ideas of Uncle Bob's The Clean Architecture, which made maintaining the applications better and making it easy to scale in terms of codebase.</p>
+                </div>
+              </div>
+              <div className="grid grid-cols-3 gap-x-6 mt-12">
+                <div>
+                  <h4 className="text-lg font-semibold mb-5">Bai Web and Mobile Lab</h4>
+                  <div>Apr. 2018 - Aug. 2021</div>
+                </div>
+                <div className="lg:col-span-2">
+                  <h4 className="text-lg font-semibold mb-5">Developer</h4>
+                  <p className="mb-5">The team worked on developing, customizing, tailoring the ERPNext for various industries such as: (1) property management systems, (2) POS systems, (3) veterinary information and booking systems, and (4) pharmaceutical sales and inventory systems.</p>
+                </div>
+              </div>
+              <div className="grid grid-cols-3 gap-x-6 mt-12">
+                <div>
+                  <h4 className="text-lg font-semibold mb-5">Bai Web and Mobile Lab</h4>
+                  <div>Jan. 2017 - Jul. 2017</div>
+                </div>
+                <div className="lg:col-span-2">
+                  <h4 className="text-lg font-semibold mb-5">Junior Developer</h4>
+                  <p className="mb-5">The company explored ERPNext's potentials to the software industry market. We worked on coding script reports, customizing invoices' forms in order to provide better contexts on clients' sales and revenues.</p>
+                  <p>The company has also worked in implementing a startup project to the local market.</p>
+                </div>
+              </div>
+              <div className="grid grid-cols-3 gap-x-6 mt-12">
+                <div>
+                  <h4 className="text-lg font-semibold mb-5">XU - Social Development and Barangay Lumbia</h4>
+                  <div>Jun. 2016 - Nov. 2016</div>
+                </div>
+                <div className="lg:col-span-2">
+                  <h4 className="text-lg font-semibold mb-5">PHP Developer</h4>
+                  <p className="mb-5">The teammates went to Barangay Lumbia in order to gain a better understanding of their profilling processes, and crafting a profiling system using CodeIgniter framework.</p>
                 </div>
               </div>
             </div>
             <div>
               <h3 className="text-3xl font-bold border-b-2 border-gray-300 pb-4 mb-7">Summary</h3>
               <p>
-                For the first 5 years of my career, I have been helping in implementing various web/mobile apps to small/medium enterprises (SMEs)—Point-of-Sale (PoS) and Enterprise Resource Planning (ERP) business solutions.
+                For the first 5 years of my career, Ivan have been helping in implementing various web/mobile apps to small/medium enterprises (SMEs)—Point-of-Sale (PoS) and Enterprise Resource Planning (ERP) business solutions.
               </p>
               <h3 className="text-3xl font-bold border-b-2 border-gray-300 pb-4 mb-7 mt-12">Skills</h3>
               <h4 className="text-lg font-semibold">Programming Languages</h4>
               <ul className="list-disc pl-5 mt-5 mb-5">
-                <li>Python</li>
-                <li>Dart</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>Rust</li>
+                <li className="mt-2">Python</li>
+                <li className="mt-2">Dart</li>
+                <li className="mt-2">JavaScript</li>
+                <li className="mt-2">TypeScript</li>
+                <li className="mt-2">Rust</li>
               </ul>
               <h4 className="text-lg font-semibold">Web & Mobile Frameworks</h4>
               <ul className="list-disc pl-5 mt-5 mb-5">
-                <li>React.js</li>
-                <li>Next.js</li>
-                <li>Flutter</li>
+                <li className="mt-2">React.js</li>
+                <li className="mt-2">Next.js</li>
+                <li className="mt-2">Flutter</li>
               </ul>
               <h4 className="text-lg font-semibold">Backend Technologies</h4>
               <ul className="list-disc pl-5 mt-5 mb-5">
-                <li>Cloud Firestore</li>
-                <li>Cloud Functions</li>
-                <li>Django</li>
-                <li>FastAPI</li>
+                <li className="mt-2">Frappe/ERPNext</li>
+                <li className="mt-2">Cloud Firestore</li>
+                <li className="mt-2">Cloud Functions</li>
+                <li className="mt-2">Django</li>
+                <li className="mt-2">FastAPI</li>
               </ul>
               <h3 className="text-3xl font-bold border-b-2 border-gray-300 pb-4 mb-7 mt-12">Education</h3>
               <h4 className="text-lg font-semibold">Xavier University - Ateneo de Cagayan</h4>
-              <div>BS in Computer Science, 2018</div>
+              <div className="mt-2">BS in Computer Science, 2018</div>
             </div>
           </div>
         </div>
